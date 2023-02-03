@@ -1,7 +1,5 @@
-import java.util.List;
-import java.util.ListIterator;
-import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.*;
+
 class Emp{
 	String name;
 	int age;
@@ -42,7 +40,6 @@ public class UserDefined {
 			Emp temp=(Emp) li.next();
 			temp.show();
 		}
-		
 
         
 	}
